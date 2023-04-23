@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin:30px 100px;
+}
+.nav , .icons ul , .nav-bar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-bar .logo a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-bar .navigation {
+    margin-left: 70px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navigation ul li {
+    margin:5px 20px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+}
+
+.icons ul {
+    list-style-type: none;
+}
+
+.icons ul li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.icons ul li a {
+    color: #000;
+    font-size: 20px;
+}
+
+.products {
+    margin:180px 0;
+    background-color: rgb(183, 212, 221);
+    width: 1300px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.image {
+    margin-top: -100px;
+}
+
+.products .text {
+    align-items: center;
+    margin:100px 80px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.products .text h1 {
+    font-size: 75px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.products .text p {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(151, 151, 151);
+    padding-bottom: 45px;
+}
+
+.products .text #products {
+    border: 2px solid #000;
+    padding: 14px 20px;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    margin-right: 10px;
+}
+.products .text #tour {
+    border: 2px solid #000;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.brands img {
+    margin-left: 50px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    height: 110px;
+    width: 1200px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 60px;
+}
+
+.container p {
+    color: rgb(151, 151, 151);
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    
+}
+
+.container a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
